@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Up ! </title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="logo.png">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+		<style>
+			body {
+				color: #61443e;
+				font-family:Monospace;
+				font-size:15px;
+				text-align:center;
+				background-color: transparent;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#info {
+				position: absolute;
+				padding-left: 300px;
+				top: 0px; width: 80%;
+			}
+			#infobis{
+				position: absolute;
+				top: 0px; width: 80%;
+			}
+		</style>
+
+
+	</head>
+
+	<body>
+		<!-- <div id="info" align='left'>
+			<br/>
+			Créer une maison : clic droit sur le sol<br />
+			Étirer sa maison : tirer sur un mur ou un toit <br />
+			Déplacer sa maison : cliquer sur le socle de la maison  <br/>
+			Changer la couleur des murs : clic droit sur le mur	<br/>
+			Détruire un objet : CTRL+clic sur l'objet (fonctionne sur la base des maisons et les ballons)          <br />
+			<br />
+		</div>
+
+		<div id="infobis" align='right'>
+			<br/>
+			Créer un ballon : clic droit sur un toit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+			Agrandir un ballon : clic gauche continu sur un ballon<br />
+			Rétrécir un ballon : clic gauche continu sur un ballon<br/>
+			Monter un ballon : MAJ+clic et déplacer le ballon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+			<br />
+		</div> -->
+
+		<div id="AffichageScene3D"> </div>
+
+		<script src="lib/three.min.js" defer></script>
+		<script src="lib/OrbitControls.js" defer></script>
+		<script src="primitive.js" defer></script>
+		<script src="sceneInit.js" defer></script>
+		<script src="scene.js" defer></script>
+		<script src="drawEvents.js" defer></script>
+		<script src="utilsDrawing.js" defer></script>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	</body>
+
+</html>
